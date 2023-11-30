@@ -20,7 +20,7 @@ baseDir = pwd;
 % Create Busses
 samplerate=1000;
 dt=1/samplerate;
-%katee_bus_creation();
+speedController_bus_creation();
 
 % CMA-ES hyperparamters
 % TODO (med): remove subjectNumber, includeStatic, includeElite, sigma and put in GUI
@@ -79,7 +79,7 @@ dt=1/samplerate;
 % tm.params.del_t_tgt = 0.5;
 
 % load variables for controller 
-%load('enablestream.mat') % tells cosmed to start streaming ENABLE COSMED STREAMING BUTTON
+% load('enablestream.mat') % tells cosmed to start streaming ENABLE COSMED STREAMING BUTTON
 
 % send it 
 choice = questdlg('Build SLX model?', 'Start options', 'Build model and run GUI', 'Just run GUI', 'Build model and run GUI');
@@ -87,7 +87,7 @@ choice = questdlg('Build SLX model?', 'Start options', 'Build model and run GUI'
 tic
 if strcmp(choice, 'Build model and run GUI')
     disp('Starting to build controller...')
-    slbuild('speed_controller_2017b');
+    slbuild('speed_controller_copy');
 end
 start(slrt);
 buildTime = num2str(round(toc));

@@ -51,18 +51,18 @@ clearvars busElements % Delete predefined bus elements
 % busElements(6).Name = "angSwing";
 % busElements(6).Dimensions = 1;
 
-busElements(7) = Simulink.BusElement;
-busElements(7).Name = "tSwing";
-busElements(7).Dimensions = 1;
+% busElements(7) = Simulink.BusElement;
+% busElements(7).Name = "tSwing";
+% busElements(7).Dimensions = 1;
 
 % for i=1:numel(busElements)
 %     busElements(i).SampleTime = [0,1];
 % end
+% 
+% kneeParams = Simulink.Bus;
+% kneeParams.Elements = busElements; 
 
-kneeParams = Simulink.Bus;
-kneeParams.Elements = busElements; 
-
-clearvars busElements % Delete predefined bus elements
+% clearvars busElements % Delete predefined bus elements
 
 %% constants
 % busElements(1) = Simulink.BusElement;
@@ -73,33 +73,33 @@ clearvars busElements % Delete predefined bus elements
 % busElements(2).Name = "KFLEX";
 % busElements(2).Dimensions = 1;
 
+busElements(1) = Simulink.BusElement;
+busElements(1).Name = "REST";
+busElements(1).Dimensions = 1;
+
+busElements(2) = Simulink.BusElement;
+busElements(2).Name = "SETZERO";
+busElements(2).Dimensions = 1;
+
 busElements(3) = Simulink.BusElement;
-busElements(3).Name = "REST";
+busElements(3).Name = "SWING";
 busElements(3).Dimensions = 1;
 
 busElements(4) = Simulink.BusElement;
-busElements(4).Name = "SETZERO";
+busElements(4).Name = "STANCE";
 busElements(4).Dimensions = 1;
-
-busElements(5) = Simulink.BusElement;
-busElements(5).Name = "SWING";
-busElements(5).Dimensions = 1;
-
-busElements(6) = Simulink.BusElement;
-busElements(6).Name = "STANCE";
-busElements(6).Dimensions = 1;
 % 
 % busElements(7) = Simulink.BusElement;
 % busElements(7).Name = "TORQUE";
 % busElements(7).Dimensions = 1;
 
-busElements(8) = Simulink.BusElement;
-busElements(8).Name = "LOCK";
-busElements(8).Dimensions = 1;
+busElements(5) = Simulink.BusElement;
+busElements(5).Name = "LOCK";
+busElements(5).Dimensions = 1;
 
-busElements(9) = Simulink.BusElement;
-busElements(9).Name = "RUN";
-busElements(9).Dimensions = 1;
+busElements(6) = Simulink.BusElement;
+busElements(6).Name = "RUN";
+busElements(6).Dimensions = 1;
 
 % busElements(10) = Simulink.BusElement;
 % busElements(10).Name = "GIVINGSLACK";
@@ -239,10 +239,10 @@ clearvars busElements % Delete predefined bus elements
 %     busElements(i).SampleTime = [0,1];
 % end
 
-gains = Simulink.Bus;
-gains.Elements = busElements; 
-
-clearvars busElements % Delete predefined bus elements
+% gains = Simulink.Bus;
+% gains.Elements = busElements; 
+% 
+% clearvars busElements % Delete predefined bus elements
 
 %% treadmillButtons
 busElements(1) = Simulink.BusElement;
@@ -467,10 +467,10 @@ clearvars busElements % Delete predefined bus elements
 % busElements(2).Dimensions = 2;
 % busElements(2).SampleTime = [0,1];
 
-busElements(3) = Simulink.BusElement;
-busElements(3).Name = "GRF";
-busElements(3).Dimensions = 12;
-busElements(3).SampleTime = [0,1];
+busElements(1) = Simulink.BusElement;
+busElements(1).Name = "GRF";
+busElements(1).Dimensions = 12;
+busElements(1).SampleTime = [0,1];
 
 % busElements(4) = Simulink.BusElement;
 % busElements(4).Name = "motorPositions";
@@ -487,31 +487,31 @@ busElements(3).SampleTime = [0,1];
 % busElements(6).Dimensions = 3;
 % busElements(6).SampleTime = [0,1];
 
-busElements(7) = Simulink.BusElement;
-busElements(7).Name = "state";
-busElements(7).DataType = "Bus: state";
+busElements(2) = Simulink.BusElement;
+busElements(2).Name = "state";
+busElements(2).DataType = "Bus: state";
 
 % busElements(8) = Simulink.BusElement;
 % busElements(8).Name = "prepMode";
 % busElements(8).Dimensions = 3; % RMdebug - change 1 to 3
 % busElements(8).SampleTime = [0,1];
 
-busElements(9) = Simulink.BusElement;
-busElements(9).Name = "walkMode";
-busElements(9).Dimensions = 3; % RMdebug - change 1 to 3
-busElements(9).SampleTime = [0,1];
+busElements(3) = Simulink.BusElement;
+busElements(3).Name = "walkMode";
+busElements(3).Dimensions = 3; % RMdebug - change 1 to 3
+busElements(3).SampleTime = [0,1];
 
-busElements(10) = Simulink.BusElement;
-busElements(10).Name = "buttons";
-busElements(10).DataType = "Bus: buttons";
+busElements(4) = Simulink.BusElement;
+busElements(4).Name = "buttons";
+busElements(4).DataType = "Bus: buttons";
 
 % busElements(11) = Simulink.BusElement;
 % busElements(11).Name = "gains";
 % busElements(11).DataType = "Bus: gains";
-
-busElements(12) = Simulink.BusElement;
-busElements(12).Name = "constants";
-busElements(12).DataType = "Bus: constants";
+% 
+busElements(5) = Simulink.BusElement;
+busElements(5).Name = "constants";
+busElements(5).DataType = "Bus: constants";
 
 % busElements(13) = Simulink.BusElement;
 % busElements(13).Name = "shankLength";
