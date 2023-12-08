@@ -1,0 +1,69 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "strideStateR"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1273-1285"\
+    }\
+    ChartData {\
+      Name         "strideStateR_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1273-1285"\
+    }\
+    ChartData {\
+      Name         "tStride"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1315-1322"\
+    }\
+    ChartData {\
+      Name         "tStance"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1334-1341"\
+    }\
+    ChartData {\
+      Name         "tSwing"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1353-1359"\
+    }\
+    ChartData {\
+      Name         "tStride_array"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1371-1384"\
+      Dimensions   [20]\
+    }\
+    ChartData {\
+      Name         "tStance_array"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "speed_controller_copy:3199:1473-1486"\
+      Dimensions   [20]\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

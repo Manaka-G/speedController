@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?><Root>
+      		<SubSystem>
+		<Name>Sensor Read and Process</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process</xPCName>
+				<SubSystem>
+		<Name>GUI</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/GUI</xPCName>
+		
+		
+            <block>
+            <blkName>BTLock</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/BTLock</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/BTLock</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>BTRun</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/BTRun</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/BTRun</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>BTmeasureWeight</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/BTmeasureWeight</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/BTmeasureWeight</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>BTresetStateVariables</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/BTresetStateVariables</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/BTresetStateVariables</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>BTzeroLeft</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/BTzeroLeft</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/BTzeroLeft</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>BTzeroRight</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/BTzeroRight</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/BTzeroRight</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>LOCK_</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/LOCK_</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/LOCK_</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>REST_</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/REST_</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/REST_</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>RUN_</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/RUN_</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/RUN_</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>SETZERO_</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/SETZERO_</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/SETZERO_</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>STANCE_</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/STANCE_</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/STANCE_</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>SWING_</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/SWING_</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/SWING_</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>UseIterativeLearning</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/UseIterativeLearning</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/UseIterativeLearning</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>num_strike</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/num_strike</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/num_strike</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>num_swing</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/num_swing</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/num_swing</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>pflex_max</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/pflex_max</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/pflex_max</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>pflex_sing</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/pflex_sing</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/pflex_sing</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>thresh_mid</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/thresh_mid</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/thresh_mid</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>thresh_swing</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/thresh_swing</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/thresh_swing</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>to_pct</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/to_pct</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/to_pct</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>tstance_avg_init</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/tstance_avg_init</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/tstance_avg_init</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>tstance_pct</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/tstance_pct</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/tstance_pct</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>tstride_avg_init</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/tstride_avg_init</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/tstride_avg_init</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>tswing_min</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/tswing_min</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/tswing_min</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>LOCK</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/LOCK</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/LOCK</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>REST</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/REST</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/REST</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>RUN</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/RUN</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/RUN</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>SETZERO</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/SETZERO</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/SETZERO</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>STANCE</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/STANCE</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/STANCE</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>SWING</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/SWING</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/SWING</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>degtorad</blkName>
+            <xpcblkName>Sensor Read and Process/GUI/degtorad</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GUI/degtorad</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>UseIterativeLearning</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/UseIterativeLearning</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>num_strike</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/num_strike</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>num_strike</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>num_swing</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/num_swing</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>num_swing</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>thresh_mid</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/thresh_mid</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>thresh_mid</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>thresh_swing</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/thresh_swing</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>thresh_swing</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>to_pct</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/to_pct</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>to_pct</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>tstance_avg_init</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/tstance_avg_init</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>tstance_avg_init</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>tstance_pct</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/tstance_pct</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>tstance_pct</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>tstride_avg_init</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/tstride_avg_init</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>tstride_avg_init</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>tswing_min</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/tswing_min</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>tswing_min</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>LOCK</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/LOCK</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>LOCK</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>REST</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/REST</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>REST</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>RUN</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/RUN</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>RUN</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>SETZERO</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/SETZERO</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>SETZERO</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>STANCE</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/STANCE</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>STANCE</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>SWING</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/SWING</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>SWING</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>degtorad</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/degtorad</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+                <sigLabel>pflex</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>MinMax1</sigName>
+              <xpcsigName>Sensor Read and Process/GUI/MinMax1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/GUI</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Scopes</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/Scopes</xPCName>
+				<SubSystem>
+		<Name>Scope 4</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/Scopes/Scope 4</xPCName>
+		
+		
+
+		</SubSystem>
+
+		
+            <block>
+            <blkName>Gain3</blkName>
+            <xpcblkName>Sensor Read and Process/Scopes/Gain3</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Scopes/Gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain6</blkName>
+            <xpcblkName>Sensor Read and Process/Scopes/Gain6</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Scopes/Gain6</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain7</blkName>
+            <xpcblkName>Sensor Read and Process/Scopes/Gain7</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Scopes/Gain7</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Gain3</sigName>
+              <xpcsigName>Sensor Read and Process/Scopes/Gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+                <sigLabel>strideStateRight</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain6</sigName>
+              <xpcsigName>Sensor Read and Process/Scopes/Gain6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+                <sigLabel>vGRF Left [N]</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain7</sigName>
+              <xpcsigName>Sensor Read and Process/Scopes/Gain7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+                <sigLabel>vGRF Right [N]</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Sum</sigName>
+              <xpcsigName>Sensor Read and Process/Scopes/Sum</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/Scopes</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Zero Level Treadmill</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/Zero Level Treadmill</xPCName>
+				<SubSystem>
+		<Name>Zero Level Force Plates</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/Zero Level Treadmill/Zero Level Force Plates</xPCName>
+		
+		
+
+		</SubSystem>
+
+		
+            <block>
+            <blkName>calibration</blkName>
+            <xpcblkName>Sensor Read and Process/Zero Level Treadmill/calibration</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Zero Level Treadmill/calibration</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[12, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process/Zero Level Treadmill</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Zero Level Force Plates</sigName>
+              <xpcsigName>Sensor Read and Process/Zero Level Treadmill/Zero Level Force Plates</xpcsigName>
+              <sigWidth>12</sigWidth>
+              <sigDim>[12, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/Zero Level Treadmill</SubSystemName>
+                <sigLabel>GRFzero</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>calibration</sigName>
+              <xpcsigName>Sensor Read and Process/Zero Level Treadmill/calibration</xpcsigName>
+              <sigWidth>12</sigWidth>
+              <sigDim>[12, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process/Zero Level Treadmill</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Control modes</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/Control modes</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>State Determination</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/State Determination</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>measureSubjWeight</Name>
+		<xPCName>speed_controller_copy/Sensor Read and Process/measureSubjWeight</xPCName>
+		
+		
+
+		</SubSystem>
+
+		
+            <block>
+            <blkName>subjMass</blkName>
+            <xpcblkName>Sensor Read and Process/subjMass</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/subjMass</SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>InitialValue</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>GRF_Threshold_Down</blkName>
+            <xpcblkName>Sensor Read and Process/GRF_Threshold_Down</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GRF_Threshold_Down</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>GRF_Threshold_Up</blkName>
+            <xpcblkName>Sensor Read and Process/GRF_Threshold_Up</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/GRF_Threshold_Up</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain10</blkName>
+            <xpcblkName>Sensor Read and Process/Gain10</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Gain10</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain3</blkName>
+            <xpcblkName>Sensor Read and Process/Gain3</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain4</blkName>
+            <xpcblkName>Sensor Read and Process/Gain4</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Gain4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain5</blkName>
+            <xpcblkName>Sensor Read and Process/Gain5</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Gain5</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain8</blkName>
+            <xpcblkName>Sensor Read and Process/Gain8</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Gain8</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain9</blkName>
+            <xpcblkName>Sensor Read and Process/Gain9</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Gain9</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Analog input3</blkName>
+            <xpcblkName>Sensor Read and Process/Analog input3</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Analog input3</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Setup1</blkName>
+            <xpcblkName>Sensor Read and Process/Setup1</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Setup1</SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Setup4</blkName>
+            <xpcblkName>Sensor Read and Process/Setup4</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Setup4</SLblockPath>
+            <isSrc>[0 0 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P6</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P7</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>3rd Order, 25 Hz 
+Butterworth Filter1</blkName>
+            <xpcblkName>Sensor Read and Process/3rd Order, 25 Hz  Butterworth Filter1</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/3rd Order, 25 Hz  Butterworth Filter1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Numerator</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>Denominator</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>InitialStates</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Unit Delay1</blkName>
+            <xpcblkName>Sensor Read and Process/Unit Delay1</xpcblkName>
+            <SLblockPath>speed_controller_copy/Sensor Read and Process/Unit Delay1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>InitialCondition</paramName>
+          <dim>[2, 1]</dim>  
+		  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Control modes</sigName>
+              <xpcsigName>Sensor Read and Process/Control modes</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p1</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p2</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+                <sigLabel>tStride</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p3</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p4</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p5</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p5</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p6</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p6</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>State Determination/p7</sigName>
+              <xpcsigName>Sensor Read and Process/State Determination/p7</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>measureSubjWeight</sigName>
+              <xpcsigName>Sensor Read and Process/measureSubjWeight</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain10</sigName>
+              <xpcsigName>Sensor Read and Process/Gain10</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+                <sigLabel>tStance_out</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain3</sigName>
+              <xpcsigName>Sensor Read and Process/Gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+                <sigLabel>strideStateR</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain4</sigName>
+              <xpcsigName>Sensor Read and Process/Gain4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+                <sigLabel>tStride_avg</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Analog input3</sigName>
+              <xpcsigName>Sensor Read and Process/Analog input3</xpcsigName>
+              <sigWidth>20</sigWidth>
+              <sigDim>[20, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>3rd Order, 25 Hz 
+Butterworth Filter1</sigName>
+              <xpcsigName>Sensor Read and Process/3rd Order, 25 Hz  Butterworth Filter1</xpcsigName>
+              <sigWidth>12</sigWidth>
+              <sigDim>[12, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+                <sigLabel>GRF\nvoltage</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Unit Delay1</sigName>
+              <xpcsigName>Sensor Read and Process/Unit Delay1</xpcsigName>
+              <sigWidth>2</sigWidth>
+              <sigDim>[2, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy/Sensor Read and Process</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
+		<Name>controller1</Name>
+		<xPCName>speed_controller_copy/controller1</xPCName>
+		
+		
+
+		</SubSystem>
+
+      
+            <block>
+            <blkName>Constant1</blkName>
+            <xpcblkName>Constant1</xpcblkName>
+            <SLblockPath>speed_controller_copy/Constant1</SLblockPath>
+            <isSrc>[1 0 1]</isSrc>
+          <parameter>
+          <paramName>Value</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Saturation1</blkName>
+            <xpcblkName>Saturation1</xpcblkName>
+            <SLblockPath>speed_controller_copy/Saturation1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>UpperLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>LowerLimit</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Analog output1</blkName>
+            <xpcblkName>Analog output1</xpcblkName>
+            <SLblockPath>speed_controller_copy/Analog output1</SLblockPath>
+            <isSrc>[0 4 0]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 4]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P4</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P5</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>speed_controller_copy</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>controller1/p1</sigName>
+              <xpcsigName>controller1/p1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>controller1/p2</sigName>
+              <xpcsigName>controller1/p2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>controller1/p3</sigName>
+              <xpcsigName>controller1/p3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Constant1</sigName>
+              <xpcsigName>Constant1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Saturation1</sigName>
+              <xpcsigName>Saturation1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>speed_controller_copy</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+</Root>
