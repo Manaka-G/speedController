@@ -64,6 +64,48 @@ clearvars busElements % Delete predefined bus elements
 
 % clearvars busElements % Delete predefined bus elements
 
+%% NODES
+busElements(1) = Simulink.BusElement;
+busElements(1).Name = "NUMNODES";
+busElements(1).Dimensions = 1;
+
+busElements(2) = Simulink.BusElement;
+busElements(2).Name = "NODE1P";
+busElements(2).Dimensions = 1;
+
+busElements(3) = Simulink.BusElement;
+busElements(3).Name = "NODE1S";
+busElements(3).Dimensions = 1;
+
+busElements(4) = Simulink.BusElement;
+busElements(4).Name = "NODE2P";
+busElements(4).Dimensions = 1;
+
+busElements(5) = Simulink.BusElement;
+busElements(5).Name = "NODE2S";
+busElements(5).Dimensions = 1;
+
+busElements(6) = Simulink.BusElement;
+busElements(6).Name = "NODE3P";
+busElements(6).Dimensions = 1;
+
+busElements(7) = Simulink.BusElement;
+busElements(7).Name = "NODE3S";
+busElements(7).Dimensions = 1;
+
+busElements(8) = Simulink.BusElement;
+busElements(8).Name = "NODE4P";
+busElements(8).Dimensions = 1;
+
+busElements(9) = Simulink.BusElement;
+busElements(9).Name = "NODE4S";
+busElements(9).Dimensions = 1;
+
+nodes = Simulink.Bus;
+nodes.Elements = busElements; 
+
+clearvars busElements % Delete predefined bus elements
+
 %% constants
 % busElements(1) = Simulink.BusElement;
 % busElements(1).Name = "KEXT";
@@ -440,12 +482,21 @@ busElements(4).Name = "tStance_avg";
 busElements(4).Dimensions = 1;
 
 busElements(5) = Simulink.BusElement;
-busElements(5).Name = "pctStride";
+busElements(5).Name = "tSwing_avg";
 busElements(5).Dimensions = 1;
 
 busElements(6) = Simulink.BusElement;
-busElements(6).Name = "pctStance";
+busElements(6).Name = "pctStride";
 busElements(6).Dimensions = 1;
+
+busElements(7) = Simulink.BusElement;
+busElements(7).Name = "pctStance";
+busElements(7).Dimensions = 1;
+
+busElements(8) = Simulink.BusElement;
+busElements(8).Name = "pctSwing";
+busElements(8).Dimensions = 1;
+
 
 % for i=1:numel(busElements)
 %     busElements(i).SampleTime = [0,1];
@@ -512,6 +563,11 @@ busElements(4).DataType = "Bus: buttons";
 busElements(5) = Simulink.BusElement;
 busElements(5).Name = "constants";
 busElements(5).DataType = "Bus: constants";
+
+busElements(6) = Simulink.BusElement;
+busElements(6).Name = "nodes";
+busElements(6).DataType = "Bus: nodes";
+
 
 % busElements(13) = Simulink.BusElement;
 % busElements(13).Name = "shankLength";

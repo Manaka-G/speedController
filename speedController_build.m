@@ -87,7 +87,7 @@ choice = questdlg('Build SLX model?', 'Start options', 'Build model and run GUI'
 tic
 if strcmp(choice, 'Build model and run GUI')
     disp('Starting to build controller...')
-    slbuild('speed_controller_copy');
+    slbuild('speed_controllerDec10');
 end
 start(slrt);
 buildTime = num2str(round(toc));
