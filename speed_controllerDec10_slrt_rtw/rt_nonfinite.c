@@ -7,9 +7,9 @@
  *
  * Code generation for model "speed_controllerDec10".
  *
- * Model version              : 1.5
+ * Model version              : 1.6
  * Simulink Coder version : 8.13 (R2017b) 24-Jul-2017
- * C source code generated on : Sun Dec 10 16:32:12 2023
+ * C source code generated on : Sun Dec 10 16:43:53 2023
  *
  * Target selection: slrt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
