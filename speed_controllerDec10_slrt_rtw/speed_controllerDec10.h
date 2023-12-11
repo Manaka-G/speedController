@@ -7,9 +7,9 @@
  *
  * Code generation for model "speed_controllerDec10".
  *
- * Model version              : 1.5
+ * Model version              : 1.6
  * Simulink Coder version : 8.13 (R2017b) 24-Jul-2017
- * C source code generated on : Sun Dec 10 16:32:12 2023
+ * C source code generated on : Sun Dec 10 16:43:53 2023
  *
  * Target selection: slrt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -1138,31 +1138,31 @@ struct P_speed_controllerDec10_T_ {
   real_T UnitDelay1_InitialCondition[2];/* Expression: [0;5]
                                          * Referenced by: '<S1>/Unit Delay1'
                                          */
-  real_T NODE1P_Value;                 /* Expression: 1
+  real_T NODE1P_Value;                 /* Expression: 25
                                         * Referenced by: '<S4>/NODE1P'
                                         */
-  real_T NODE1S_Value;                 /* Expression: 1
+  real_T NODE1S_Value;                 /* Expression: 0.5
                                         * Referenced by: '<S4>/NODE1S'
                                         */
-  real_T NODE2P_Value;                 /* Expression: 1
+  real_T NODE2P_Value;                 /* Expression: 50
                                         * Referenced by: '<S4>/NODE2P'
                                         */
-  real_T NODE2S_Value;                 /* Expression: 1
+  real_T NODE2S_Value;                 /* Expression: 1.1
                                         * Referenced by: '<S4>/NODE2S'
                                         */
-  real_T NODE3P_Value;                 /* Expression: 1
+  real_T NODE3P_Value;                 /* Expression: 75
                                         * Referenced by: '<S4>/NODE3P'
                                         */
-  real_T NODE3S_Value;                 /* Expression: 1
+  real_T NODE3S_Value;                 /* Expression: 1.3
                                         * Referenced by: '<S4>/NODE3S'
                                         */
-  real_T NODE4P_Value;                 /* Expression: 1
+  real_T NODE4P_Value;                 /* Expression: 100
                                         * Referenced by: '<S4>/NODE4P'
                                         */
   real_T NODE4S_Value;                 /* Expression: 1
                                         * Referenced by: '<S4>/NODE4S'
                                         */
-  real_T NUMNODES_Value;               /* Expression: 1
+  real_T NUMNODES_Value;               /* Expression: 4
                                         * Referenced by: '<S4>/NUMNODES'
                                         */
   real_T pflex_max_Value;              /* Expression: 25

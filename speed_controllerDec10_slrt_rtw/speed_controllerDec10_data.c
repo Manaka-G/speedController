@@ -7,9 +7,9 @@
  *
  * Code generation for model "speed_controllerDec10".
  *
- * Model version              : 1.5
+ * Model version              : 1.6
  * Simulink Coder version : 8.13 (R2017b) 24-Jul-2017
- * C source code generated on : Sun Dec 10 16:32:12 2023
+ * C source code generated on : Sun Dec 10 16:43:53 2023
  *
  * Target selection: slrt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -340,50 +340,50 @@ P_speed_controllerDec10_T speed_controllerDec10_P = {
    */
   { 0.0, 5.0 },
 
-  /* Expression: 1
+  /* Expression: 25
    * Referenced by: '<S4>/NODE1P'
    */
-  1.0,
+  25.0,
 
-  /* Expression: 1
+  /* Expression: 0.5
    * Referenced by: '<S4>/NODE1S'
    */
-  1.0,
+  0.5,
 
-  /* Expression: 1
+  /* Expression: 50
    * Referenced by: '<S4>/NODE2P'
    */
-  1.0,
+  50.0,
 
-  /* Expression: 1
+  /* Expression: 1.1
    * Referenced by: '<S4>/NODE2S'
    */
-  1.0,
+  1.1,
 
-  /* Expression: 1
+  /* Expression: 75
    * Referenced by: '<S4>/NODE3P'
    */
-  1.0,
+  75.0,
 
-  /* Expression: 1
+  /* Expression: 1.3
    * Referenced by: '<S4>/NODE3S'
    */
-  1.0,
+  1.3,
 
-  /* Expression: 1
+  /* Expression: 100
    * Referenced by: '<S4>/NODE4P'
    */
-  1.0,
+  100.0,
 
   /* Expression: 1
    * Referenced by: '<S4>/NODE4S'
    */
   1.0,
 
-  /* Expression: 1
+  /* Expression: 4
    * Referenced by: '<S4>/NUMNODES'
    */
-  1.0,
+  4.0,
 
   /* Expression: 25
    * Referenced by: '<S4>/pflex_max'
